@@ -63,7 +63,11 @@ public class flyers1 {
 			 foodBill=foodBill+menu();
 			}
 			
-				
+			if (orderMore == 2) {
+				 foodBill=foodBill;
+				}
+		
+			
 			 foodBill= foodBill+foodBill*0.05f;
 				if (delivery == 1)
 				foodBill=foodBill+5.00f;
